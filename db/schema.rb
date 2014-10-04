@@ -19,6 +19,9 @@ ActiveRecord::Schema.define(version: 20141004135751) do
     t.string   "name"
     t.string   "oauth_token"
     t.datetime "oauth_expires_at"
+    t.string   "field"
+    t.string   "location"
+    t.decimal  "rate"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
