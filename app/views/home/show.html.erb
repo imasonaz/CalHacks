@@ -21,14 +21,10 @@
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- Warming Up -->
-    <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
-    <script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
-
 	<!--Video Section-->
 	<section class="content-section video-section">
 	  <div class="pattern-overlay">
-	  <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=ykOogKkwyz0',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
+	  <%= videojs_rails sources: { mp4: "http://www.youtube.com/watch?v=ykOogKkwyz0", width:"1300" } %>
 	    <div class="container">
 	      <div class="row">
 	        <div class="offset3 span6">

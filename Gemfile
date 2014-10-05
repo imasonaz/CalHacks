@@ -21,6 +21,7 @@ gem 'spring',        group: :development
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'better_errors'
+gem 'videojs_rails'
 gem 'unicorn'
 
 # Use Capistrano for deployment
